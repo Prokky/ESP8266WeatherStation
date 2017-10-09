@@ -16,13 +16,13 @@ WiFiClient c;
 HttpClient http(c);
 SoftwareSerial bt(12, 2);
 
-const char* ssid     = "HiQo Solutions";
-const char* password = "tm6A8$ktY0TP";
+const char* ssid     = "YOUR_WIFI_SSID";
+const char* password = "YOUR_WIFI_PASSWORD";
 
 const char* host = "api.openweathermap.org";
-const char* openWeatherKey = "b74cf79bfaba328273d793b9973b2f58";
-const double lon = 30.26;
-const double lat = 59.89;
+const char* openWeatherKey = "YOUR_OPENWEATHER_API_KEY";
+const double lon = 30.26; // weather lon
+const double lat = 59.89; // weather lat
 const int kNetworkTimeout = 30 * 1000;
 const int kNetworkDelay = 1000;
 
